@@ -1,0 +1,16 @@
+{
+	"name": "weather-test",
+	"version": "1.0.0",
+	"scripts": {
+		"test": "cypress run",
+		"download-extension": "ced gleekbfjekiniecknbkamfmkohkpodhe extensions/ignore-x-frame-headers"
+	},
+	"dependencies": {
+		"chrome-ext-downloader": "^1.0.4"
+	},
+	"devDependencies": {
+		"@testing-library/cypress": "^9.0.0",
+		"cypress": "^12.17.0",
+		"cypress-iframe": "^1.0.1"
+	}
+}

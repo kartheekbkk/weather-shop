@@ -5,8 +5,10 @@
 		"test": "cypress run",
 		"download-extension": "ced gleekbfjekiniecknbkamfmkohkpodhe extensions/ignore-x-frame-headers"
 	},
-	"devDependencies": {
+	"dependencies":{
 		"chrome-extension-downloader": "^1.0.4",
+	}
+	"devDependencies": {		
 		"@testing-library/cypress": "^9.0.0",
 		"cypress": "^12.17.0",
 		"cypress-iframe": "^1.0.1"
